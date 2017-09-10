@@ -1,4 +1,4 @@
-example.property: "I AM IN THE DEFAULT from Git¡°
+example.property: "I AM IN THE DEFAULT from Github"
 spring.jpa.database: "CASSANDRA"
 spring.datasource.platform:  "cassandra"
 spring.jpa.show-sql: "true"
