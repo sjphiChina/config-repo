@@ -1,6 +1,7 @@
 example.property: "I AM IN THE DEFAULT from Github"
 #Cassandra
-database.ip: "172.18.0.2"
+#database.ip: "172.18.0.2"
+database.ip: "127.0.0.1"
 database.port: "9042"
 database.keyspace: "life_user"
 spring.jpa.database: "CASSANDRA"
@@ -16,6 +17,7 @@ spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.CassandraSQLDial
 
 #Redis
 redis.server: "redis"
-redis.ip: "172.20.0.2"
+#redis.ip: "172.20.0.2"
+redis.ip: "127.0.0.1"
 redis.port: "6379"
 signing.key: "345345fsdfsf5345"
