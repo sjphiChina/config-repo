@@ -1,0 +1,13 @@
+spring.jpa.database: ¡°mysql¡±
+spring.datasource.platform:  ¡°mysql¡±
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "com.mysql.jdbc.Driver"
+spring.datasource.url: "jdbc:mysql://sjph-life-common.ctgb0cuyefjz.us-east-2.rds.amazonaws.com/life_common¡±
+spring.datasource.username: "sjph"
+spring.datasource.password: "{cipher}49aa12709b062988a1983676c7250adabe31fd38327fe39e418e2b1a6d63b07c"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQLDialect"
+redis.server: "redis"
+redis.port: "6379"
+signing.key: "345345fsdfsf5345"
